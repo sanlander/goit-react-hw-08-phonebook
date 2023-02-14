@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { textSearch } from 'redux/filtersReducer';
+import { textSearch } from 'redux/contacts/filtersReducer';
 import { Div, Input, Label } from './Filter.modules';
 
 export const Filter = () => {
